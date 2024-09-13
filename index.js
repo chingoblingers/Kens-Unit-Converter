@@ -1,1 +1,5 @@
 const btn = document.getElementById('btn')
+let volume = document.getElementById('volume')
+let mass = document.getElementById('mass')
+let length = document.getElementById('length')
+let number = document.getElementById("number")
