@@ -14,13 +14,13 @@ function convertLength(input) {
     let feetResult = input.value / 3.281
     let meterResult = input.value * 3.281
 
-    return `${input.value} meters = ${feetResult.toFixed(3)} feet | ${input.value} feet = ${meterResult.toFixed(3)} meters`
+    return `${input.value} meters = ${meterResult.toFixed(3)} feet | ${input.value} feet = ${feetResult.toFixed(3)} meters`
 
 }
 
 function convertVolume(input) {
     let literResult = input.value / 0.264
-    let gallonResult = input.value * 3.785
+    let gallonResult = input.value * 0.264
 
     return `${input.value} liters = ${gallonResult.toFixed(3)} gallons | ${input.value} gallons = ${literResult.toFixed(3)} liters`
 
